@@ -6,6 +6,7 @@ const greeting = document.querySelector("#greeting");
 const HIDDEN_CLASSNAME = "hidden";
 const USERNAME_KEY = "username";
 
+
 function onLoginSubmit(event) {
   event.preventDefault(); // 기본행동발생막기 새로고침x
   const username = loginInput.value;

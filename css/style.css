@@ -82,14 +82,17 @@ input{
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom: 1.5px solid black;
+    border-bottom: 1.5px solid rgb(255, 255, 255);
     text-shadow: 2px 7px 6px white; 
     width: 100%;
-}
+}   
 input::placeholder{
     color:whitesmoke;
     text-shadow: 2px 7px 6px gray; 
     text-align: center;
+  
+    
 }
+
 
 
